@@ -1,17 +1,18 @@
 # Smargy IoT Smartmeter Reader
 
-<img src="https://github.com/VinFar/SML_Reader_V2.0/blob/master/Beispielanlage.png" width="100%"/>
-This Project is a continuation of the second version available [here](https://github.com/VinFar/SML_Reader_V2.0)
+<img src="Beispielanlage.png" width="100%"/>
+
+This Project is a continuation of the second version available [here](https://github.com/VinFar/SML_Reader_V2.0).
 
 # Introduction
-This Repo is about a eco-system for reading out the upcoming electrical [SmartMeter](https://discovergy.com/blog/was-ist-ein-smart-meter). With this device it is possible to read out SmartMeter over the optical interface that is present on all meters.
+This Repo is about a IoT Device for reading out the upcoming electrical [SmartMeter](https://discovergy.com/blog/was-ist-ein-smart-meter). With this device it is possible to record and display one's own power consumption in order to optimize it afterwards. 
 
 It is part of an eco-system consisting of the following features:
-- This IoT-Device for reading out the Smartmeters (Vincent Fartmann)
-- Database for storing the time-based Data (InfluxDB) (Simon Wüllhorst)
-- Grafana for visualization the data coming from the Readers (Simon Wüllhorst)
-- Prediction of power generation if a photovoltaic plant exists (Simon Wüllhorst)
-- Web-Interface with GUI (PC and Smartphone) for usability (Christian Wunder)
+- This IoT-Device for reading out the Smartmeters
+- Database for storing the time-based Data (InfluxDB)
+- Grafana for visualization the data coming from the Readers
+- Prediction of power generation for the next days based on the weather forecast if a photovoltaic plant exists
+- Web-Interface with GUI (PC and Smartphone) for usability
 
 The IoT-Device (referred as Reader) is briefly described here:
 
@@ -24,8 +25,6 @@ The IoT-Device (referred as Reader) is briefly described here:
 ## Hardware Features
 - Iot-Functionality with WiFi
 - STM32L432KC as MCU
-  - Flash (256KB) and RAM (48+16KB) is already 98% used
-  - We need more RAM!!!
 - OLED Display
 - SD-Card Slot
 - EEPROM for storing critical data
@@ -39,22 +38,21 @@ The IoT-Device (referred as Reader) is briefly described here:
 
 ## Software Features
 - FreeRTOS as operating system
-- IP Stack
-- SD-Card Interface using FatFS
+- IP Stack [LWESP](https://github.com/MaJerle/lwesp)
+- SD-Card Interface using [FatFS](http://elm-chan.org/fsw/ff/00index_e.html)
 - OTA-Update of Firmware (currently in development)
-- Telnet Server for command-line-interface
+- Telnet Server with command-line-interface 
 - TCP Debugging Stream to Server
 - Creating of HttpServer for Wifi SSID and PW input
 - DMA Transfers for USART and I2C
 - Fast-Fourier-Transformation for detection of Ferrarris reader
-- QR-Code Generation for pairing device with a specific user
+  - Not working due to insufficient amount of RAM of MCU
+- [QR-Code Generation](https://www.nayuki.io/page/qr-code-generator-library) for pairing device with a specific user 
 - Offline mode using SD-Card
-- Printf functionality
+- Printf functionality ([lwprintf](https://github.com/MaJerle/lwprintf))
 
 <img src="pairing_qr_code_scan.png" width="50%"/>
 
 <img src="Telnet.png" width="50%"/><img src="TCPTerminal.png" width="50%"/>
 
-
-This Readme will be filled with content in the next time 
-
+The source code to this project is not public, yet!
