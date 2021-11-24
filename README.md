@@ -23,7 +23,7 @@ The IoT-Device (referred as Reader) is briefly described here:
 # Features
 
 ## Hardware Features
-- Iot-Functionality with WiFi
+- Iot-Functionality with WiFi (Espressif ESP32)
 - STM32L432KC as MCU
 - OLED Display
 - SD-Card Slot
