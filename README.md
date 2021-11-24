@@ -1,5 +1,6 @@
 # Smargy IoT Smartmeter Reader
 
+<img src="Dashboard.png" width="100%"/>
 <img src="Beispielanlage.png" width="100%"/>
 
 This Project is a continuation of the second version available [here](https://github.com/VinFar/SML_Reader_V2.0).
@@ -8,11 +9,10 @@ This Project is a continuation of the second version available [here](https://gi
 This Repo is about a IoT Device for reading out the upcoming electrical [SmartMeter](https://discovergy.com/blog/was-ist-ein-smart-meter). With this device it is possible to record and display one's own power consumption in order to optimize it afterwards. 
 
 It is part of an eco-system consisting of the following features:
-- This IoT-Device for reading out the Smartmeters
-- Database for storing the time-based Data (InfluxDB)
-- Grafana for visualization the data coming from the Readers
-- Prediction of power generation for the next days based on the weather forecast if a photovoltaic plant exists
-- Web-Interface with GUI (PC and Smartphone) for usability
+- This IoT-Device for reading out the Smartmeters ([VinFar](https://github.com/VinFar))
+- InfluxDB & Grafana for visualization the data coming from the Readers ([descilla](https://github.com/descilla))
+- Prediction of power generation for the next days based on the weather forecast if a photovoltaic plant exists ([descilla](https://github.com/descilla))
+- Web-Interface with GUI (PC and Smartphone) for usability ([ChrisWun](https://github.com/ChrisWun))
 
 The IoT-Device (referred as Reader) is briefly described here:
 
