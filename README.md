@@ -1,7 +1,10 @@
 # Smargy IoT Smartmeter Reader
 
-<img src="Dashboard.png" width="100%"/>
-<img src="Beispielanlage.png" width="100%"/>
+<p align="center">
+<img src="logo.png" width="50%">
+</p>
+
+<img src="Dashboard.png" width="50%"/><img src="Beispielanlage.png" width="50%"/>
 
 This Project is a continuation of the second version available [here](https://github.com/VinFar/SML_Reader_V2.0).
 
