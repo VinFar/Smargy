@@ -38,7 +38,7 @@ The IoT-Device (referred as Reader) is briefly described here:
 
 ## Software Features
 - FreeRTOS as operating system
-- IP Stack [LWESP](https://github.com/MaJerle/lwesp)
+- AT-Command Library [LWESP](https://github.com/MaJerle/lwesp)
 - SD-Card Interface using [FatFS](http://elm-chan.org/fsw/ff/00index_e.html)
 - OTA-Update of Firmware (currently in development)
 - Telnet Server with command-line-interface 
