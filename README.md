@@ -37,7 +37,7 @@ The IoT-Device (referred as Reader) is briefly described here:
 - Stacked PCBs
   - This allows development of different Wireless Modules (WiFi, GSM, LoRa, ZigBee, DECT etc...) which are interfaced by the MCU  
 
-<img src="OhneHousing.png" width="33%"/><img src="MiddlePCB.png" width="33%"/><img src="TopPCB.png" width="33%"/>
+<img src="OhneHousing.jpg" width="33%"/><img src="MiddlePCB_Foto.jpg" width="33%"/><img src="TopPCB.png" width="33%"/>
 
 ## Software Features
 - FreeRTOS as operating system
