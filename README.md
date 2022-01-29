@@ -54,7 +54,7 @@ The IoT-Device (referred as Reader) is briefly described here:
 - Offline mode using SD-Card
 - Printf functionality ([lwprintf](https://github.com/MaJerle/lwprintf))
 
-<img src="pairing_qr_code_scan.png" width="50%"/>
+<img src="pairing_qr_code_scan.jpg" width="50%"/>
 
 <img src="Telnet.png" width="50%"/><img src="TCPTerminal.png" width="50%"/>
 
