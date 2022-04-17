@@ -22,6 +22,7 @@ The IoT-Device (referred as Reader) is briefly described here:
 # Pictures
 
 <img src="Reader.jpg" width="50%"/><img src="34Schnitt.png" width="50%"/>
+<img src="mMe40.png" width="50%"/>
 
 # Features
 
